@@ -10,28 +10,6 @@ Dashboard de análise de vendas feito com Python, Pandas, NumPy, Plotly e Stream
 - Evolução mensal e análise por mês do ano
 - Exportação de resultados para CSV e Excel
 
-## Como executar
-
-Requer Python 3.10 ou superior.
-
-```bash
-# 1. Crie e ative um ambiente virtual (opcional, recomendado)
-python -m venv .venv
-
-# Windows
-.venv\Scripts\activate
-
-# macOS/Linux
-source .venv/bin/activate
-
-# 2. Instale as dependências
-pip install -r requirements.txt
-
-# 3. Inicie o dashboard
-streamlit run app.py
-```
-
-O navegador abrirá o dashboard. Sem arquivo enviado, a aplicação usa dados fictícios de demonstração.
 
 ## Formato dos dados
 
@@ -61,10 +39,3 @@ A aplicação tenta reconhecer algumas variações comuns nos nomes das colunas,
 - Para concluir que existe sazonalidade, prefira comparar vários anos e períodos equivalentes.
 - Os dados demonstrativos são artificiais e não representam uma loja real.
 
-## Ideias de evolução para o portfólio
-1. Adicionar testes automatizados com `pytest`.
-2. Criar alertas para queda de faturamento e margem negativa.
-3. Comparar categorias, filiais e canais de venda.
-4. Implementar previsão simples com médias móveis, explicando suas limitações.
-5. Incluir `pedido_id` para métricas reais de ticket e frequência.
-6. Publicar o app e adicionar capturas de tela ao README.
