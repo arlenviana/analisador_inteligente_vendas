@@ -1,0 +1,7 @@
+data,produto,quantidade,preco_unitario,custo_unitario,categoria
+2025-01-05,Café,3,18.00,8.00,Mercearia
+2025-01-06,Chá,2,12.00,4.50,Mercearia
+2025-01-06,Biscoito,5,7.50,3.20,Biscoitos
+2025-02-02,Café,4,18.00,8.00,Mercearia
+2025-02-15,Chocolate,6,9.00,4.00,Doces
+2025-03-10,Suco,8,8.00,3.00,Bebidas
