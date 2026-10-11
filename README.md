@@ -11,27 +11,6 @@ Dashboard de análise de vendas feito com Python, Pandas, NumPy, Plotly e Stream
 - Exportação de resultados para CSV e Excel
 
 
-## Formato dos dados
-
-Colunas obrigatórias:
-- `data`: data da venda
-- `produto`: nome do produto
-- `quantidade`: unidades vendidas
-- `preco_unitario`: preço de venda por unidade
-- `custo_unitario`: custo por unidade
-
-Coluna opcional:
-- `categoria`
-
-Exemplo CSV:
-
-```csv
-data,produto,quantidade,preco_unitario,custo_unitario,categoria
-2025-01-05,Café,3,18.00,8.00,Mercearia
-2025-01-06,Chá,2,12.00,4.50,Mercearia
-```
-
-A aplicação tenta reconhecer algumas variações comuns nos nomes das colunas, mas use os nomes acima para evitar erros.
 
 ## Limitações importantes
 - O lucro é uma estimativa: não desconta impostos, despesas fixas, frete, taxas ou devoluções separadamente.
